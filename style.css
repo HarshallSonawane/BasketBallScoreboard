@@ -1,0 +1,181 @@
+#container-left{
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background-color: #1B244A;
+    width: 565px;
+    height: 385px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+#scored-board{
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+}
+
+#main-body{
+    background-image:url(/Images/bg.jpg);
+}
+#heading-1{
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #EEEEEE;
+    width: 249px;
+    height: 36px;
+    padding: 40px -40px -10px;
+    margin-left: 100px;
+}   
+
+#heading-2{
+    margin-top:20px;
+    padding:30px -50px -10px;
+    color: #EEEEEE;
+    width: 249px;
+    height: 36px;
+    margin-left: 350px;
+    
+}
+
+table,td,tr{
+    height: 0px;
+    font-size: larger;
+    margin-top: 1px;
+    padding: 10px;
+    color: #EEEEEE;
+    width: 70%;
+    border-collapse: collapse;
+    margin-right: 30px;
+    margin-left: 90px;
+}
+
+#s-container{
+    margin-top: 20px;
+    padding-inline-start: 0%;
+    width: fit-content;
+    height: 10px;
+}
+
+
+#score-card-1{
+    height: 120px;
+    width: 155px;
+    background-color: #080001;
+    margin-right: 50px;
+    margin-top:0%;
+}
+
+
+#score-card-2{
+    height: 120px;
+    width: 155px;
+    background-color: #080001;
+    margin-right: 30px;
+}
+
+#score-tracker-home{
+    font-family: 'Cursed Timer ULiL', sans-serif;                                             
+    font-weight: bolder;
+    color: #F94F6D;
+    width: 117px;
+    height:120px;
+    font-size:90px;
+    line-height: 126.7px;
+    
+    
+}
+
+
+#score-tracker-away{
+    font-family: 'Cursed Timer ULiL', sans-serif;                                             
+    font-weight: bolder;
+    color: #F94F6D;
+    width: 117px;
+    height:120px;
+    font-size:90px;
+    line-height: 126.7px;
+    
+    
+}
+
+#score-add{
+    width: 155px;
+    height: 45px;
+    color: #9AABD8;
+}
+
+#Home1,#Home3,#Home5{
+    transition: all .5s ease;
+    color: #1B244A;
+    border: 3px solid #9AABD8;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    color: #9AABD8;
+    
+}
+
+
+#Home5:hover {
+    color: #001F3F;
+    background-color: white;
+}
+
+#Home3:hover {
+    color: #001F3F;
+    background-color: white;
+}
+
+#Home1:hover {
+    color: #001F3F;
+    background-color: white;
+}
+
+
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1B244A;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   
+   button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   button:hover span {
+    padding-right: 15px;
+   }
+   
+   button:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+

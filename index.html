@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts/CursedTimerUlil-Aznm.ttf" />
+    <title>Basketball Scoreboard</title>
+  </head>
+
+  <body id="main-body">
+    <div id="container-left">
+      <table>
+        <tr style="height:min-content;">
+          <center>
+          <div>
+            <td>HOME</td> 
+            <td>AWAY</td>
+          </div>
+          </center>
+        </tr>
+
+        <tr style="height: min-content;">
+          <td id="s-container">
+            <div id="score-card-1">
+              <center><p id="score-tracker-home">0</p></center>
+            </div>
+          </td>
+          <td>
+            <div id="score-card-2">
+              <center><p id="score-tracker-away">0</p></center>
+            </div>
+          </td>
+        </tr>
+
+        <tr style="height: min-content;">
+            <div id="score-add">
+              <center>
+                <div id="score-btn">
+                <td>
+                  <input type="button" value="+1" id="Home1" onclick="increaseByOneHome()"/>
+                  <input type="button" value="+3" id="Home3" onclick="increaseByThreeHome()"/>
+                  <input type="button" value="+5" id="Home5" onclick="increaseByFiveHome()"/>
+                </div>
+              </center>
+            </div>
+          </td>
+
+          
+            <div id="score-add">
+              <center>
+                <div id="score-btn">
+                  <td>
+                    <input type="button" value="+1" id="Home1" onclick="increaseByOneAway()"/>
+                  <input type="button" value="+3" id="Home3" onclick="increaseByThreeAway()"/>
+                  <input type="button" value="+5" id="Home5" onclick="increaseByFiveAway()"/>
+                </div>
+              </center>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="reset">
+     <center>
+      <button onclick="Reset()">
+        <span>Reset</span>
+      </button>
+    </center>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
