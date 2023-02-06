@@ -51,5 +51,9 @@ function increaseByFiveAway(){
 
 function Reset(){
    scoreHome.innerText = 0;
-    scoreAway.innerText = 0;
+   scoreAway.innerText = 0;
+
+   totalAwayScore = 0;
+   totalHomeScore = 0;
+
 }
